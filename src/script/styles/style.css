@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form, .card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 50px auto;
+}
+
+form > input,
+form > button {
+  border: 1px solid rgba(86, 164, 86, 0.975);
+  border-radius: 4px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+form > input:focus,
+form > button:focus {
+  outline: 1px solid rgba(10, 163, 10, 0.975);
+}
